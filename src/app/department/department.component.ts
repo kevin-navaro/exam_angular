@@ -22,7 +22,7 @@ export class DepartmentComponent implements OnInit
 
   ngOnInit(): void
   {
-    let url: string = 'https://geo.api.gouv.fr/regions';
+    let url: string = 'https://geo.api.gouv.fr/departements';
     this.activatedRoute.params.subscribe((params) => {
       if (params['departements']) {
         this.departements = params['departements'];

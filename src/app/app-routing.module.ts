@@ -10,7 +10,7 @@ const routes: Routes = [
   { path: 'regions', component: RegionComponent},
   { path: 'departements', component: DepartmentComponent},
   { path: 'communes', component: CityComponent},
-  { path: 'communes/:comms', component: CityComponent},
+  // { path: 'communes/:comms', component: CityComponent},
   { path: '**', component: RegionComponent },
 ];
 

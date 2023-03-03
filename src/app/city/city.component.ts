@@ -26,7 +26,7 @@ export class CityComponent implements OnInit
 
   ngOnInit(): void
   {
-    let url: string = 'https://geo.api.gouv.fr/regions';
+    let url: string = 'https://geo.api.gouv.fr/communes';
     this.activatedRoute.params.subscribe((params) => {
       if (params['communes']) {
         this.communes = params['comms'];
