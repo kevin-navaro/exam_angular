@@ -1,0 +1,25 @@
+<div class="container">
+  <h1>{{ title }}</h1>
+  <table class="table table-striped table-hover">
+    <thead>
+    <tr>
+      <th>Nom</th>
+      <th>Code</th>
+      <th> Code Région</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let dep of departements">
+      <td >
+        {{ dep.nom }}
+      </td>
+      <td>
+        {{dep.code}}
+      </td>
+      <td>
+        {{dep.code_region}}
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>

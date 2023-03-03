@@ -1,0 +1,10 @@
+
+.darkmode {
+  background-color: #3d3d3d;
+  color: white;
+}
+
+.full-screen {
+  min-height: 100vh;
+  height: 100%;
+}
